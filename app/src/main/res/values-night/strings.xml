@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="btText">Clique para rodar o dado</string>
+    <string name="txtTitulo">Dados aleatórios</string>
+    <string name="descricaoImagem">imagem de um dado</string>
 </resources>

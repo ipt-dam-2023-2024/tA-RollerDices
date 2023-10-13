@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
         val txt = findViewById<TextView>(R.id.textView)
 
         // gerar um nº aleatório, entre 1 e 6
-        var novoNumAleatorio = Random().nextInt(6) + 1
+        val novoNumAleatorio = Random().nextInt(6) + 1
 
         // avisar o utilizador que o num. gerado é igual ao que existia
         if (txt.text == novoNumAleatorio.toString())
             Toast.makeText(
                 this,
-                "O valor gerado é igual ao que já existia...",
+                getString(R.string.toastText),
                 Toast.LENGTH_LONG
             ).show()
 
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         //    - criar o ponteiro para a ImageView
         val image = findViewById<ImageView>(R.id.imageView)
         //    - determinar a imagem (recurso) a associar à ImageView
-        var recursoAMostrarNoDado = when (novoNumAleatorio) {
+        val recursoAMostrarNoDado = when (novoNumAleatorio) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3

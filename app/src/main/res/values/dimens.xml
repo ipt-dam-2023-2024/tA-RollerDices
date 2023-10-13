@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="HugeTextSize">96sp</dimen>
+    <dimen name="BigBigTextSize">40sp</dimen>
     <dimen name="BigTextSize">20sp</dimen>
     <dimen name="NormalTextSize">12sp</dimen>
 </resources>

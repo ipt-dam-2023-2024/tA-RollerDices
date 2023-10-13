@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RollerDices</string>
     <string name="btText">Clique para rodar o dado</string>
+    <string name="toastText">O valor gerado é igual ao que já existia…</string>
+    <string name="txtTitulo">Dados aleatórios</string>
+    <string name="descricaoImagem">imagem de um dado</string>
 </resources>
